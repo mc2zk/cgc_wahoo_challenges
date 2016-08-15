@@ -1,7 +1,7 @@
 # cgc_wahoo_challenges
 Simple challenges written and used during the course of preparing for 2014-2016 DARPA Cyber Grand Challenge
 
-## SIMPLE_* are programs primarily based on the UVA Dumbledore Grading program used in the class Defense Against the Dark Arts
+### SIMPLE_* are programs primarily based on the UVA Dumbledore Grading program used in the class Defense Against the Dark Arts
 
 SIMPLE_00001:  super-simplified dumbledore (smaller buffer, no input parameters to readString function). stack-based buffer overflow in readString.  sample type 1 exploit controls eip and ebp
 
@@ -30,8 +30,8 @@ SIMPLE_00012: Modified dumbledore. Stack-based buffer overflow vulnerability. ch
 SIMPLE_00013: Modified dumbledore. Stack-based buffer overflow vulnerability. characters xor'd with constant 4-byte key upon read using rotate_xor() function, xor'd with same constant 4-byte key before return (using rotate_xor() function).  Sample type 1 POV.
 SIMPLE_00014: super-simplified dumbledore as above, but stackbuffer overflow vulnerability (function pointer on stack can be overwritten).  Sample type 1 exploit demonstrates control of eip and esi.
 
-## SIMPLE2_*: layout: stack buffer next to pointer variable, vulnerability:  stack-based buffer overflow. Uses variations on format string specifiers
-## NOTE:  no pollers provided for SIMPLE2 only sample type 2 POV for each.
+### SIMPLE2_*: layout: stack buffer next to pointer variable, vulnerability:  stack-based buffer overflow. Uses variations on format string specifiers
+#### NOTE:  no pollers provided for SIMPLE2 only sample type 2 POV for each.
 
 SIMPLE2_00001: printf("hello: %x\n", *ptr);
 SIMPLE2_00002: printf("hello: %d\n", *ptr);
